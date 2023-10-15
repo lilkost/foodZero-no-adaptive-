@@ -1,0 +1,59 @@
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: $containerWidth;
+	margin: 0 auto;
+}
+
+button {
+	background: none;
+	cursor: pointer;
+}
+
+.btn {
+	padding-block: 20px;
+	padding-inline: 46px;
+	color: #FFF;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 48px;
+	border: 2px solid #ffff;
+	font-family: var(--ff);
+	transition: all .3s ease;
+}
+
+.title-main {
+	color: #000;
+	font-family: var(--ff);
+	font-size: 108px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120px;
+}
+
+.text-main {
+	color: #4d4d4d;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0.48px;
+}

@@ -1,0 +1,44 @@
+@media (min-width: 1000px) {
+    .header__btn:hover {
+        background-color: #fff;
+        color: var(--bg-top);
+    }
+
+    .header__phone:hover::before {
+        left: 0;
+        right: 0;
+    }
+
+    .header__burger:hover .header__burger-line {
+        width: 30px;
+    }
+
+    .menu-dropdown__item:hover {
+        .menu-dropdown__link {
+            color: var(--green-light);
+        }
+
+        &::before {
+            background-color: var(--green-light);
+        }
+    }
+
+    .menu-dropdown__box-item ul li a:hover svg>path {
+        fill: var(--green-light);
+    }
+
+    .news__slide-link:hover {
+        padding-right: 65px;
+    }
+
+    .reservation__form-btn:hover {
+        background-color: transparent;
+        color: var(--green-dark);
+    }
+
+    .footer__form-btn:hover {
+        background-color: var(--green-light);
+        border-color: var(--green-light);
+        color: white;
+    }
+}

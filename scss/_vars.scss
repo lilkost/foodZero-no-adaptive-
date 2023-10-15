@@ -1,0 +1,28 @@
+$containerWidth: 1644px;
+
+
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --bg-top: #233000;
+    --bg-light: #ebf0e4;
+    --green-dark: #5e6600;
+    --green-light: #9caa00;
+    --ff: 'Rufina-foodzero';
+    --ff-inter: 'Inter', sans-serif;
+    --ff-lato: 'Lato', sans-serif;
+}
+
+
+@mixin flex($fl, $al, $js) {
+    display: flex;
+    flex-direction: $fl;
+    align-items: $al;
+    justify-content: $js;
+}
+
+@mixin grid($col, $row) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}
